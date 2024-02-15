@@ -19,6 +19,5 @@ function ranks(){
         text += colorNames[i] + "<br>";
     }
     document.getElementById("ranks").innerHTML=text;
-
-
 }
+
