@@ -21,3 +21,16 @@ function ranks(){
     document.getElementById("ranks").innerHTML=text;
 }
 
+function textRank(){
+    let i = 0;
+    let text = "";
+    let first = document.getElementById("secondInput").value;
+    let second = document.getElementById("thirdInput").value;
+    let fourth = document.getElementById("fourthInput").value;
+    let rank = [first, second, fourth];
+    while (i < rank.length) {
+        text += rank[i] + "<br>";
+        i++;
+    }
+    document.getElementById("rank").innerHTML=text
+}
